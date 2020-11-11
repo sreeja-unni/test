@@ -1,0 +1,17 @@
+package com.trillium.scheduler.model;
+
+import java.util.Date;
+
+import lombok.Data;
+
+@Data
+public class AppointmentLite {
+
+	private Long appointmentId;
+	private Date startDateTime;
+	private Date endDateTime;
+	private Long providerId;
+	private Long patientId;
+	private Integer status;
+
+}
